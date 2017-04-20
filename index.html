@@ -1,13 +1,57 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-</head>
-
-<body>
-
-
-</body>
+	<head>
+	  <meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="main.css">
+	  <title>Music History</title>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li><a href="#">View Music</a></li>
+				<li><a href="#">Add Music</a></li>
+				<li><a href="#">Profile</a></li>
+			</ul>
+		</header>
+		<div id="main">
+			<div id="leftBar">Song length:<br><input id="lengthBar" type="range"><br>
+				Artist:<br><select name="artist">
+					<option value="sublime">Sublime</option>
+					<option value="nirvana">Nirvana</option>
+					<option value="soundgarden">Soundgarden</option>
+					<option value="nin">Nine Inch Nails</option>
+					<option value="alice">Alice in Chains</option>
+					</select><br>
+				Album:<br><select name="album">
+					<option value="nevermind">Nevermind</option>
+					<option value="ozFreedom">40&deg; to Freedom</option>
+					<option value="utero">In Utero</option>
+					<option value="sublime">Sublime</option>
+					<option value="a-sides">A-Sides</option>
+					<option value="spiral">The Downward Spiral</option>
+					<option value="nothingSafe">Nothing Safe</option>
+				</select><br>
+				Genre:<br><form id="genre">
+					<input type="checkbox" value="rock">Rock
+					<input type="checkbox" value="classical">Classical
+					<input type="checkbox" value="pop">Pop
+					<input type="checkbox" value="jazz">Jazz
+					<input type="checkbox" value="blues">Blues
+					<input type="checkbox" value="hiphop">Hip Hop
+				</form>
+				<button type="submit" form="form1" value="Submit">Filter</button>
+			</div>
+			<div id="rightBox">
+				<div class="songList">
+					<h2>Song Name</h2>Artist name | Album name | Genre</div>
+				<div class="songList">
+					<h2>Song Name</h2>Artist name | Album name | Genre</div>
+				<div class="songList">
+					<h2>Song Name</h2>Artist name | Album name | Genre</div>
+				<div class="songList">
+					<h2>Song Name</h2>Artist name | Album name | Genre</div>
+			</div>
+		</div>
+	</body>
 </html>

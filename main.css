@@ -1,0 +1,56 @@
+header {
+	margin: 2% 12% 1%;
+	border: 3px solid black;
+	background-color: #FFB4B0;
+	height: 3em;
+}
+header li {
+	float: left;
+	list-style-type: none;
+	margin: 0 1em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#main {
+	margin: 0 12%;
+	width: 76%;
+}
+#leftBar {
+	float: left;
+	margin: 0 1% 0 0;
+	padding: 1px 1em;
+	width: 18%;
+	height: 25em;
+	border: 3px solid black;
+	background-color: #4DD7FA;
+}
+#leftBar button {
+
+}
+#lengthBar {
+	border: 2px solid black;
+}
+
+#rightBox {
+	float: left;
+	width: 73.2%;
+	height: 25em;
+	padding: 0;
+	border: 3px solid black;
+	background-color: #FEFAC0;
+}
+
+.songList {
+	margin: 0 1em;
+}
+.songList h2 {
+	color: #785616;
+}
+select {
+	border: 3px solid black;
+	border-radius: 5px;
+	margin-left: 1em;
+	width: 80%;
+}
